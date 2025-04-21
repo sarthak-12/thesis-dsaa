@@ -1,0 +1,29 @@
+Active Conda Environment: bert
+Fold-wise Classification Metrics:
+ Fold  Accuracy  Precision   Recall       F1  ROC_AUC       MCC
+    1  0.563596   0.583535 0.899254 0.707783 0.492180 -0.026343
+    2  0.565957   0.572414 0.932584 0.709402 0.508164  0.030808
+    3  0.633218   0.652174 0.901639 0.756881 0.535725  0.104273
+    4  0.529126   0.524590 0.905660 0.664360 0.517830  0.056591
+    5  0.484979   0.469072 0.842593 0.602649 0.509296  0.024836
+
+Fold-wise Financial Metrics:
+ Fold  Directional_Win_Rate  Profit_Factor  Sharpe_Ratio
+    1              0.513158       1.265074      1.169455
+    2              0.521277       1.100965      0.432775
+    3              0.501730       1.535255      2.426301
+    4              0.446602       1.020423      0.116327
+    5              0.377682       1.023888      0.128566
+
+Overall Classification Metrics:
+Accuracy: 0.56
+Precision: 0.57
+Recall: 0.90
+F1-Score: 0.70
+ROC-AUC: 0.51
+MCC: 0.04
+
+Overall Financial Metrics:
+Directional Win Rate: 0.49
+Profit Factor: 1.16
+Sharpe Ratio: 0.69
