@@ -129,6 +129,5 @@ Open `results_final/graph.twb` in Tableau for an interactive dashboard.
 
 ## Contact
 
-Sarthak Khanna
 - GitHub: [sarthak-12](https://github.com/sarthak-12)
 
