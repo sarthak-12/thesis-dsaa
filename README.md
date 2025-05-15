@@ -1,6 +1,6 @@
-# Thesis-STONK: STONK: Stock Trend Optimization using News Knowledge
+# STONK: Stock Trend Optimization using News Knowledge
 
-This repository contains the code, data, and results for my thesis, which explores the application of combining sentiment analysis with financial data to forecast stock movement. It combines structured numerical data from the S&P 500 with textual sentiment signals from multiple news sources, and evaluates both classical machine learning models and large language models (LLMs).
+This repository contains the code, data, and results for the project STONK, which explores the application of combining sentiment analysis with financial data to forecast stock movement. It combines structured numerical data from the S&P 500 with textual sentiment signals from multiple news sources, and evaluates both classical machine learning models and large language models (LLMs).
 
 ## Table of Contents
 
