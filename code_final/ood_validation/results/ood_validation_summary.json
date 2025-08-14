@@ -1,0 +1,28 @@
+{
+  "model_info": {
+    "training_auc": 0.895,
+    "ood_auc": 0.6431539496243099,
+    "auc_drop": 0.2518460503756901,
+    "n_features": 392,
+    "n_samples": 5845
+  },
+  "classification_metrics": {
+    "accuracy": 0.595551753635586,
+    "precision": 0.5333333333333333,
+    "recall": 0.5893416927899686,
+    "f1_score": 0.5599404318689502,
+    "roc_auc": 0.6431539496243099,
+    "mcc": 0.18829130155359244
+  },
+  "financial_metrics": {
+    "win_rate": 0.23609923011120615,
+    "total_return": 503.7877797802199,
+    "profit_factor": 1.3826488311741298,
+    "sharpe_ratio": 1.2297712526060876
+  },
+  "data_info": {
+    "date_range": "2024-01-08 00:00:00 to 2024-12-11 00:00:00",
+    "n_samples": 5845,
+    "positive_class_ratio": 0.43661248930710006
+  }
+}

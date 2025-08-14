@@ -1,0 +1,26 @@
+{
+  "numeric_scaler": "artifacts/numeric_scaler_attention.joblib",
+  "attention_modules": "artifacts/attention_modules/attention_components.pth",
+  "pca_model": "artifacts/preprocessors/pca_text_reduction.joblib",
+  "best_model": "artifacts/models/best_model.joblib",
+  "ensemble_models": "artifacts/models/ensemble_models.joblib",
+  "individual_folds": [
+    "artifacts/models/fold_1_artifacts.joblib",
+    "artifacts/models/fold_2_artifacts.joblib",
+    "artifacts/models/fold_3_artifacts.joblib",
+    "artifacts/models/fold_4_artifacts.joblib",
+    "artifacts/models/fold_5_artifacts.joblib"
+  ],
+  "training_summary": [
+    "artifacts/training_summary.json",
+    "artifacts/training_summary.joblib"
+  ],
+  "plots": [
+    "training_vs_testing_years.png",
+    "confusion_matrix_embeddings_tss_fold_1_finetuned.png",
+    "confusion_matrix_embeddings_tss_fold_2_finetuned.png",
+    "confusion_matrix_embeddings_tss_fold_3_finetuned.png",
+    "confusion_matrix_embeddings_tss_fold_4_finetuned.png",
+    "confusion_matrix_embeddings_tss_fold_5_finetuned.png"
+  ]
+}

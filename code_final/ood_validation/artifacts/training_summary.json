@@ -1,0 +1,53 @@
+{
+  "model_type": "Logistic Regression with Cross-Modal Attention",
+  "data_shape": [
+    15235,
+    768
+  ],
+  "num_folds": 5,
+  "numerical_cols": [
+    "Open",
+    "sentiment_volatility_lag1",
+    "aggregate_sentiment_score_lag1",
+    "Close_lag1",
+    "High_lag1",
+    "Volume_lag1",
+    "Daily_Return_lag1",
+    "Volatility_lag1"
+  ],
+  "embed_dim_attn": 768,
+  "num_heads": 32,
+  "finetuned_model_path": "./deberta_v3_finphrasebank_final_model/",
+  "base_model_name": "microsoft/deberta-v3-base",
+  "device": "mps",
+  "metrics": {
+    "avg_accuracy": 0.6166994879873965,
+    "avg_precision": 0.6467660252663588,
+    "avg_recall": 0.6902027879584962,
+    "avg_f1": 0.6631077107161948,
+    "avg_roc_auc": 0.626430139529383,
+    "avg_mcc": 0.20592519864855197,
+    "individual_fold_f1_scores": [
+      0.535593220338983,
+      0.7326611671249618,
+      0.6763744427934621,
+      0.7100553205336805,
+      0.6608544027898866
+    ]
+  },
+  "financial_metrics": {
+    "directional_win_rate": 0.34486018117369044,
+    "profit_factor": 1.5197043995366821,
+    "sharpe_ratio": 1.64759009854374
+  },
+  "best_model_info": {
+    "best_fold": 2,
+    "best_f1_score": 0.7326611671249618
+  },
+  "training_date": "2025-08-03 22:52:24",
+  "data_date_range": {
+    "start_date": "2007-08-01",
+    "end_date": "2023-07-14",
+    "total_samples": 15235
+  }
+}
